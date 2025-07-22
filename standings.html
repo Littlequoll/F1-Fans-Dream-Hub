@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Formula 1 Central - Standings</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #0d0d0d;
+      color: #f1f1f1;
+    }
+    header {
+      background-color: #e10600;
+      padding: 1rem;
+      text-align: center;
+    }
+    header img {
+      max-width: 200px;
+      margin-bottom: 10px;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2rem;
+      color: white;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      background-color: #1a1a1a;
+      padding: 0.5rem 0;
+    }
+    nav a {
+      color: #f1f1f1;
+      margin: 0 1rem;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      color: #e10600;
+    }
+    .section {
+      padding: 2rem;
+      max-width: 1000px;
+      margin: auto;
+    }
+    iframe {
+      border: none;
+      width: 100%;
+      height: 500px;
+      margin-bottom: 1rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/F1.svg/2560px-F1.svg.png" alt="F1 Logo" />
+    <h1>Formula 1 Central</h1>
+  </header>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="standings.html">Standings</a>
+    <a href="profiles.html">Drivers & Teams</a>
+    <a href="telemetry.html">Live Telemetry</a>
+  </nav>
+
+  <div class="section" id="standings">
+    <h2>🏁 Driver Standings</h2>
+    <iframe src="https://www.formula1.com/en/results.html/2025/drivers.html"></iframe>
+
+    <h2>🏎️ Constructor Standings</h2>
+    <iframe src="https://www.formula1.com/en/results.html/2025/team.html"></iframe>
+  </div>
+</body>
+</html>

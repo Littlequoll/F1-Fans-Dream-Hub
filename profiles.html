@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Formula 1 Central - Profiles</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #0d0d0d;
+      color: #f1f1f1;
+    }
+    header {
+      background-color: #e10600;
+      padding: 1rem;
+      text-align: center;
+    }
+    header img {
+      max-width: 200px;
+      margin-bottom: 10px;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2rem;
+      color: white;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      background-color: #1a1a1a;
+      padding: 0.5rem 0;
+    }
+    nav a {
+      color: #f1f1f1;
+      margin: 0 1rem;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      color: #e10600;
+    }
+    .section {
+      padding: 2rem;
+      max-width: 1000px;
+      margin: auto;
+    }
+    .driver, .team {
+      background-color: #1a1a1a;
+      padding: 1rem;
+      margin: 1rem 0;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(255, 255, 255, 0.05);
+    }
+    .driver h3, .team h3 {
+      margin-top: 0;
+      color: #e10600;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/F1.svg/2560px-F1.svg.png" alt="F1 Logo" />
+    <h1>Formula 1 Central</h1>
+  </header>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="standings.html">Standings</a>
+    <a href="profiles.html">Drivers & Teams</a>
+    <a href="telemetry.html">Live Telemetry</a>
+  </nav>
+
+  <div class="section" id="profiles">
+    <h2>👥 Drivers</h2>
+    <div class="driver">
+      <h3>Lewis Hamilton</h3>
+      <p>Team: Ferrari | World Titles: 7 | Nationality: British</p>
+    </div>
+    <div class="driver">
+      <h3>Max Verstappen</h3>
+      <p>Team: Red Bull Racing | World Titles: 3 | Nationality: Dutch</p>
+    </div>
+
+    <h2>🏎️ Teams</h2>
+    <div class="team">
+      <h3>Red Bull Racing</h3>
+      <p>Drivers: Max Verstappen, Sergio Pérez</p>
+    </div>
+    <div class="team">
+      <h3>Ferrari</h3>
+      <p>Drivers: Charles Leclerc, Lewis Hamilton</p>
+    </div>
+  </div>
+</body>
+</html>
